@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fried Chicken Delight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff9900;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff9900;
+        }
+
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fried Chicken Delight</h1>
+        <p>Delicious fried chicken for every taste!</p>
+    </header>
+
+    <section>
+        <h2>Menu</h2>
+        
+        <div class="menu-item">
+            <h3>Original Fried Chicken</h3>
+            <p>Crispy and flavorful, our classic fried chicken.</p>
+            <p>Price: $9.99</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Spicy Fried Chicken</h3>
+            <p>For those who like it hot! Spicy and crispy fried chicken.</p>
+            <p>Price: $10.99</p>
+        </div>
+
+        <!-- Add more menu items as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fried Chicken Delight</p>
+    </footer>
+
+</body>
+</html>
